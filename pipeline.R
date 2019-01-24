@@ -112,7 +112,6 @@ sub_data<- data_all_chnls_fr[data_all_chnls_fr$PhenoGraph==i,]
 cytofCore.write.FCS(as.matrix(sub_data), filename=paste("clusterN_",i,".fcs",sep=""), what = "numeric")
 }
 
-############################################################screen fino a qui###################################
 
 
 
