@@ -22,7 +22,7 @@ setwd("./..") }
 setwd("./results")
 dir <- getwd()
 filenames <- list.files(dir ,pattern='.fcs$', full=F)
-combined_data_transformed <- cytof_exprsMerge(fcsFiles = filenames[1:3], comp=FALSE,                                             
+combined_data_transformed <- cytof_exprsMerge(fcsFiles = filenames, comp=FALSE,                                             
                                               transformMethod = "none",
                                               mergeMethod = "all")
                                               
